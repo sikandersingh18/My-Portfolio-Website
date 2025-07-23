@@ -2,6 +2,7 @@
  * Contact section component - Contact information based on resume
  * Provides ways to get in touch and connect
  */
+import emailjs from 'emailjs-com'
 import React from 'react'
 import { Mail, Phone, MapPin, Send, Github, Linkedin, ExternalLink, MessageSquare, LucideIcon } from 'lucide-react'
 
@@ -23,6 +24,7 @@ const ContactSection: React.FC = () => {
   /**
    * Contact information from resume
    */
+  
   const contactInfo: ContactInfo[] = [
     {
       icon: Mail,
@@ -220,10 +222,10 @@ const ContactSection: React.FC = () => {
         {/* Footer */}
         <div className="mt-16 pt-8 border-t border-slate-700 text-center">
           <p className="text-gray-400">
-            Made with ❤️ by <span className="text-orange-400">Sikander Singh</span> • © 2024 All rights reserved
+            Made by <span className="text-orange-400">Sikander Singh</span> • © 2025 All rights reserved
           </p>
           <p className="text-gray-500 text-sm mt-2">
-            Built with React, TypeScript, and Tailwind CSS • Computer Science Student at Chandigarh University
+            Built with React, TypeScript • Computer Science Student at Chandigarh University
           </p>
         </div>
       </div>
